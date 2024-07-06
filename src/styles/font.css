@@ -1,0 +1,49 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/PlusJakartaSansRomanBold.ttf");
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/PlusJakartaSansRomanMedium.ttf");
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/PlusJakartaSansExtraBold.ttf");
+  font-family: "Plus Jakarta Sans";
+  font-weight: 800;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/PlusJakartaSansRomanRegular.ttf");
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/SpaceGroteskBold.ttf");
+  font-family: "Space Grotesk";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/SpaceGroteskMedium.ttf");
+  font-family: "Space Grotesk";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/SpaceGroteskRegular.ttf");
+  font-family: "Space Grotesk";
+  font-weight: 400;
+}
