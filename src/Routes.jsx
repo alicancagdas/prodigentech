@@ -1,3 +1,4 @@
+// src/ProjectRoutes.js
 import React from "react";
 import { useRoutes } from "react-router-dom";
 import Home from "pages/Home";
@@ -10,18 +11,9 @@ const ProjectRoutes = () => {
   let element = useRoutes([
     { path: "dhiwise-dashboard", element: <Home /> },
     { path: "*", element: <NotFound /> },
-    {
-      path: "/",
-      element: <Main />,
-    },
-    {
-      path: "aboutme",
-      element: <Aboutme />,
-    },
-    {
-      path: "iletisim",
-      element: <Iletisim />,
-    },
+    { path: "/", element: <Main /> },
+    { path: "aboutme", element: <Aboutme /> },
+    { path: "iletisim", element: <Iletisim /> },
   ]);
 
   return element;
