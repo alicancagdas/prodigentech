@@ -9,7 +9,7 @@ import Iletisim from "pages/Iletisim";
 
 const ProjectRoutes = () => {
   let element = useRoutes([
-    { path: "dhiwise-dashboard", element: <Home /> },
+    { },
     { path: "*", element: <NotFound /> },
     { path: "/", element: <Main /> },
     { path: "aboutme", element: <Aboutme /> },
